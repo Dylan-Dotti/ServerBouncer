@@ -1,0 +1,10 @@
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\ServerBouncer_Server.exe.config
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\ServerBouncer_Server.exe
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\ServerBouncer_Server.pdb
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\Topshelf.dll
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\Topshelf.xml
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\obj\Debug\ServerBouncer_Server.csprojAssemblyReference.cache
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\obj\Debug\ServerBouncer_Server.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\obj\Debug\ServerBouncer_Server.csproj.CopyComplete
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\obj\Debug\ServerBouncer_Server.exe
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\obj\Debug\ServerBouncer_Server.pdb
