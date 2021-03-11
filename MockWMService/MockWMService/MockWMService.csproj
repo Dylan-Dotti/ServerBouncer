@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7696AA51-84FF-4C98-BD4A-539E4E16F81E}</ProjectGuid>
+    <ProjectGuid>{757BAC24-B3D0-4C76-BB90-C06AD1F705EC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ServerBouncer_Server</RootNamespace>
-    <AssemblyName>ServerBouncer_Server</AssemblyName>
+    <RootNamespace>MockWMService</RootNamespace>
+    <AssemblyName>MockWMService</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,14 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,21 +45,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SBServer.cs" />
-    <Compile Include="ServiceInterface.cs" />
-    <Compile Include="ServiceNotFoundException.cs" />
+    <Compile Include="WMService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\NET Projects\TcpServerLibrary\TcpServerLibrary\TcpServerLibrary.csproj">
-      <Project>{3ffbae36-7ffb-4380-a0e3-5cd39d27b4b0}</Project>
-      <Name>TcpServerLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\..\NET Projects\TopshelfBoilerplate\TopshelfBoilerplate\TopshelfBoilerplate.csproj">
-      <Project>{3435E4C2-C547-4103-9EF4-EA3281A0B1DD}</Project>
+      <Project>{3435e4c2-c547-4103-9ef4-ea3281a0b1dd}</Project>
       <Name>TopshelfBoilerplate</Name>
     </ProjectReference>
   </ItemGroup>
