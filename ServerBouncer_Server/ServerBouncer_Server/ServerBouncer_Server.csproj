@@ -62,6 +62,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\NET Projects\JsonMessagingLibrary\JsonMessagingLibrary\JsonMessagingLibrary.csproj">
+      <Project>{6d88d699-f2c6-4fc6-95ec-8fed13feecf8}</Project>
+      <Name>JsonMessagingLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\..\NET Projects\LoggingLibrary\LoggingLibrary\LoggingLibrary.csproj">
       <Project>{c196bb20-0d35-463d-bb0a-3b0842db8ae0}</Project>
       <Name>LoggingLibrary</Name>
