@@ -12,3 +12,5 @@ C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBounc
 C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\TopshelfBoilerplate.pdb
 C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\TcpServerLibrary.dll
 C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\TcpServerLibrary.pdb
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\LoggingLibrary.dll
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\ServerBouncer_Server\ServerBouncer_Server\bin\Debug\LoggingLibrary.pdb

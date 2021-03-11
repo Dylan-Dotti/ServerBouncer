@@ -61,6 +61,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\NET Projects\LoggingLibrary\LoggingLibrary\LoggingLibrary.csproj">
+      <Project>{c196bb20-0d35-463d-bb0a-3b0842db8ae0}</Project>
+      <Name>LoggingLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\..\NET Projects\TcpServerLibrary\TcpServerLibrary\TcpServerLibrary.csproj">
       <Project>{3ffbae36-7ffb-4380-a0e3-5cd39d27b4b0}</Project>
       <Name>TcpServerLibrary</Name>
