@@ -13,7 +13,8 @@ namespace ServerBouncer_Server
             string serviceName = "SWISSLOG_SERVER_BOUNCER";
             string displayName = "SWISSLOG_SERVER_BOUNCER";
             string description = "App for automating Swisslog service restarts";
-            ILogger logger = new FileLogger("C:/Users/h4dottd/Desktop/SB_Logs/ServerBouncer.log.txt");
+            ILogger logger = new ConsoleLogger();
+                //new FileLogger("C:/Users/h4dottd/Desktop/SB_Logs/ServerBouncer.log.txt");
             IServiceWorker worker = new SBServer(GetLocalIPAddress(), 58, logger);
             new TopshelfService(serviceName, displayName, description).Run(worker);
         }

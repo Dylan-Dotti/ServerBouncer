@@ -7,7 +7,7 @@ using TopshelfBoilerplate;
 
 namespace MockWMService
 {
-    class WMService : IService
+    class WMService : IServiceWorker
     {
         public void Start()
         {

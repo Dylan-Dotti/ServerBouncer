@@ -1,0 +1,12 @@
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\bin\Debug\MockWMService.exe.config
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\bin\Debug\MockWMService.exe
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\bin\Debug\MockWMService.pdb
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\bin\Debug\TopshelfBoilerplate.dll
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\bin\Debug\Topshelf.dll
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\bin\Debug\TopshelfBoilerplate.pdb
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\bin\Debug\Topshelf.xml
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\obj\Debug\MockWMService.csprojAssemblyReference.cache
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\obj\Debug\MockWMService.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\obj\Debug\MockWMService.csproj.CopyComplete
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\obj\Debug\MockWMService.exe
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockWMService\MockWMService\obj\Debug\MockWMService.pdb
