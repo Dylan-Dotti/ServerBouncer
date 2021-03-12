@@ -1,8 +1,4 @@
 ﻿using LoggingLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
 using TcpServerLibrary;
 using TopshelfBoilerplate;
 
@@ -28,26 +24,36 @@ namespace ServerBouncer_Server
         protected override void OnServerStarted()
         {
             logger.Log($"Server running on port {port}...");
-            try
-            {
-                var serviceInterface = new ServiceInterface("SWISSLOG_MOCK_WM_SERVICE");
-                logger.Log("Stopping service...");
-                serviceInterface.StopService();
-                logger.Log("Service stopped");
-                Thread.Sleep(20000);
-                logger.Log("Starting service...");
-                serviceInterface.StartService();
-                logger.Log("Service started");
-            }
-            catch (Exception e)
-            {
-                logger.Log(e.ToString());
-            }
+            LogSettings();
         }
 
         protected override void OnServerStopped()
         {
             logger.Log("Server stopped");
+        }
+
+        private void LogSettings()
+        {
+            logger.Log("Stop sequence:");
+            foreach (string serviceName in AppSettings.ServiceNameStopSequence)
+            {
+                logger.Log(serviceName);
+            }
+            logger.Log("Stop delays:");
+            foreach (float delay in AppSettings.PostStopDelaysInMilliseconds)
+            {
+                logger.Log(delay.ToString());
+            }
+            logger.Log("Start sequence:");
+            foreach (string serviceName in AppSettings.ServiceNameStartSequence)
+            {
+                logger.Log(serviceName);
+            }
+            logger.Log("Start delays:");
+            foreach (float delay in AppSettings.PostStartDelaysInMilliseconds)
+            {
+                logger.Log(delay.ToString());
+            }
         }
     }
 }
