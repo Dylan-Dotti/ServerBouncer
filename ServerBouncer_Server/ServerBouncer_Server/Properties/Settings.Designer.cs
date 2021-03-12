@@ -58,5 +58,14 @@ namespace ServerBouncer_Server.Properties {
                 return ((string)(this["PostStartDelayMilliseconds"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("\"SWISSLOG_SERVER_BOUNCER\"")]
+        public string BouncerServiceName {
+            get {
+                return ((string)(this["BouncerServiceName"]));
+            }
+        }
     }
 }

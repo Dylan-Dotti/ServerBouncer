@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockLPService", "MockLPServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopshelfBoilerplate", "..\..\..\NET Projects\TopshelfBoilerplate\TopshelfBoilerplate\TopshelfBoilerplate.csproj", "{3435E4C2-C547-4103-9EF4-EA3281A0B1DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingLibrary", "..\..\..\NET Projects\LoggingLibrary\LoggingLibrary\LoggingLibrary.csproj", "{C196BB20-0D35-463D-BB0A-3B0842DB8AE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3435E4C2-C547-4103-9EF4-EA3281A0B1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3435E4C2-C547-4103-9EF4-EA3281A0B1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3435E4C2-C547-4103-9EF4-EA3281A0B1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C196BB20-0D35-463D-BB0A-3B0842DB8AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C196BB20-0D35-463D-BB0A-3B0842DB8AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C196BB20-0D35-463D-BB0A-3B0842DB8AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C196BB20-0D35-463D-BB0A-3B0842DB8AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,5 +14,8 @@
     <Setting Name="PostStartDelayMilliseconds" Type="System.String" Scope="Application">
       <Value Profile="(Default)">10000</Value>
     </Setting>
+    <Setting Name="BouncerServiceName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">"SWISSLOG_SERVER_BOUNCER"</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

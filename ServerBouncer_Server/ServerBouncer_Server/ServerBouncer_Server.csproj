@@ -60,6 +60,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SBServer.cs" />
+    <Compile Include="ServiceBounceSequence.cs" />
     <Compile Include="ServiceInterface.cs" />
     <Compile Include="ServiceNotFoundException.cs" />
   </ItemGroup>

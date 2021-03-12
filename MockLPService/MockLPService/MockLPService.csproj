@@ -51,6 +51,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\NET Projects\LoggingLibrary\LoggingLibrary\LoggingLibrary.csproj">
+      <Project>{c196bb20-0d35-463d-bb0a-3b0842db8ae0}</Project>
+      <Name>LoggingLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\..\NET Projects\TopshelfBoilerplate\TopshelfBoilerplate\TopshelfBoilerplate.csproj">
       <Project>{3435e4c2-c547-4103-9ef4-ea3281a0b1dd}</Project>
       <Name>TopshelfBoilerplate</Name>

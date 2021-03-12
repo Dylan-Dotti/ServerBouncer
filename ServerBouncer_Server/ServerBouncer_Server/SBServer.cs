@@ -1,4 +1,5 @@
 ﻿using LoggingLibrary;
+using System.Threading;
 using TcpServerLibrary;
 using TopshelfBoilerplate;
 
@@ -21,10 +22,17 @@ namespace ServerBouncer_Server
             clientHandler.HandleClientThreaded(client, logger);
         }
 
-        protected override void OnServerStarted()
+        protected async override void OnServerStarted()
         {
             logger.Log($"Server running on port {port}...");
-            LogSettings();
+            //LogSettings();
+            await new ServiceBounceSequence(
+                AppSettings.ServiceNameStopSequence,
+                AppSettings.ServiceNameStartSequence,
+                AppSettings.PostStopDelaysInMilliseconds,
+                AppSettings.PostStartDelaysInMilliseconds,
+                logger)
+                .ExecuteAsync();
         }
 
         protected override void OnServerStopped()
@@ -34,6 +42,8 @@ namespace ServerBouncer_Server
 
         private void LogSettings()
         {
+            logger.Log("Bouncer service name:");
+            logger.Log(AppSettings.BouncerServiceName);
             logger.Log("Stop sequence:");
             foreach (string serviceName in AppSettings.ServiceNameStopSequence)
             {

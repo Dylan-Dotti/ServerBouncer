@@ -1,4 +1,5 @@
-﻿using TopshelfBoilerplate;
+﻿using LoggingLibrary;
+using TopshelfBoilerplate;
 
 namespace MockLPService
 {
@@ -10,7 +11,7 @@ namespace MockLPService
                 "SWISSLOG_MOCK_LP_SERVICE",
                 "SWISSLOG_MOCK_LP_SERVICE",
                 "A mock LP service for testing")
-                .Run(new LPServiceWorker());
+                .Run(new LPServiceWorker(new ConsoleLogger()));
         }
     }
 }

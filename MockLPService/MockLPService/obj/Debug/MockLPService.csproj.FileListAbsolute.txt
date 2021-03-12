@@ -10,3 +10,5 @@ C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\
 C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.csproj.CopyComplete
 C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.exe
 C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.pdb
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\LoggingLibrary.dll
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\LoggingLibrary.pdb

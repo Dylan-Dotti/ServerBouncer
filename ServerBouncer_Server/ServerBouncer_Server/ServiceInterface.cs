@@ -8,6 +8,8 @@ namespace ServerBouncer_Server
     {
         private readonly ServiceController controller;
 
+        public string ServiceName => controller.ServiceName;
+
         public ServiceInterface(string serviceName)
         {
             try
