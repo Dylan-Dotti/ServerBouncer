@@ -1,0 +1,12 @@
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\MockLPService.exe.config
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\MockLPService.exe
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\MockLPService.pdb
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\TopshelfBoilerplate.dll
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\Topshelf.dll
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\TopshelfBoilerplate.pdb
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\bin\Debug\Topshelf.xml
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.csprojAssemblyReference.cache
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.csproj.CopyComplete
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.exe
+C:\Users\h4dottd\Documents\GitHub\ServerBouncer\MockLPService\MockLPService\obj\Debug\MockLPService.pdb
